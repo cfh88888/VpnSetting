@@ -33,7 +33,6 @@ cfw-latency-timeout: 5000
 Proxy:
   - {name: 🇺🇲 美国3 CN2-GT, server: racknerd.v2-1900.site, port: 443, type: vmess, uuid: ec7f9985-daf0-41ce-8b6c-de1c936abb0f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: racknerd.v2-1900.site}, headers: {Host: racknerd.v2-1900.site}}
   - {name: 🇸🇬 新加坡sg.cdn.cnccsnet.cn, server: sg.cdn.cnccsnet.cn, port: 443, type: vmess, uuid: 8a679da5-9b3d-4b92-bfd4-bcf082c69fbd, alterId: 22, cipher: auto, tls: true, network: ws, ws-path: /fb04a2fc/, ws-headers: {Host: sg.cdn.cnccsnet.cn}, headers: {Host: sg.cdn.cnccsnet.cn}}
-  - {name: s352.wewall.xyz, server: s352.wewall.xyz, port: 8880, type: vmess, uuid: 7b068e23-65be-4a39-9c9d-efb6f4507a99, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: s352.wewall.xyz}, headers: {Host: s352.wewall.xyz}}
   - {name: 5, server: 36.231.232.195, port: 45738, type: vmess, uuid: f203b9af-1102-067c-48a6-2bbb29d3817d, alterId: 0, cipher: auto, tls: false}
   - {name: 6, server: 36.232.41.34, port: 41819, type: vmess, uuid: f203b9af-1102-067c-48a6-2bbb29d3817d, alterId: 0, cipher: auto, tls: false}
   - {name: 7, server: 114.38.85.225, port: 33500, type: vmess, uuid: f203b9af-1102-067c-48a6-2bbb29d3817d, alterId: 0, cipher: auto, tls: false}
@@ -58,7 +57,6 @@ Proxy Group:
       - ♻️ 自动选择
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -84,7 +82,6 @@ Proxy Group:
     proxies:
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -109,7 +106,6 @@ Proxy Group:
       - ♻️ 自动选择
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -135,7 +131,6 @@ Proxy Group:
       - ♻️ 自动选择
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -159,7 +154,6 @@ Proxy Group:
     proxies:
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -183,7 +177,6 @@ Proxy Group:
     proxies:
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -209,7 +202,6 @@ Proxy Group:
       - ♻️ 自动选择
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -236,7 +228,6 @@ Proxy Group:
       - ♻️ 自动选择
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -262,7 +253,6 @@ Proxy Group:
       - ♻️ 自动选择
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
@@ -293,7 +283,6 @@ Proxy Group:
       - DIRECT
       - 🇺🇲 美国3 CN2-GT
       - 🇸🇬 新加坡sg.cdn.cnccsnet.cn
-      - s352.wewall.xyz
       - 5
       - 6
       - 7
