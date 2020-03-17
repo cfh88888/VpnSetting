@@ -33,10 +33,11 @@ cfw-latency-timeout: 5000
 Proxy:
   - {name: 🇺🇲 美国3 CN2-GT, server: racknerd.v2-1900.site, port: 443, type: vmess, uuid: ec7f9985-daf0-41ce-8b6c-de1c936abb0f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: racknerd.v2-1900.site}, headers: {Host: racknerd.v2-1900.site}}
   - {name: 🇸🇬 新加坡sg.cdn.cnccsnet.cn, server: sg.cdn.cnccsnet.cn, port: 443, type: vmess, uuid: 8a679da5-9b3d-4b92-bfd4-bcf082c69fbd, alterId: 22, cipher: auto, tls: true, network: ws, ws-path: /fb04a2fc/, ws-headers: {Host: sg.cdn.cnccsnet.cn}, headers: {Host: sg.cdn.cnccsnet.cn}}
-  - {name: SSRTOOL.COM, server: b289wt5vxa.tk, port: 443, type: vmess, uuid: 7f2c5a90-d415-4b90-8738-fd6e3ea901aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /kE9pVGoBIpp9GoR, ws-headers: {Host: b289wt5vxa.tk}, headers: {Host: b289wt5vxa.tk}}
-  - {name: SSRTOOL.COM$, server: 159.65.132.228, port: 8080, type: vmess, uuid: 13f3ca4e-7542-310f-be51-6f69015be4ae, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.bing.com}, headers: {Host: cn.bing.com}}
-  - {name: SSRTOOL.COM$$, server: b.b289wt5vxa.tk, port: 443, type: vmess, uuid: 080a61f7-f2be-4364-8cf9-ada2182fb151, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1fffc9de/, ws-headers: {Host: b.b289wt5vxa.tk}, headers: {Host: b.b289wt5vxa.tk}}
-  - {name: 🇭🇰 香港HKT, server: ncov.prpr.pp.ua, port: 443, type: vmess, uuid: 481ede3c-809f-473e-8a4c-539e1b1e4987, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /lybfightlzm, ws-headers: {Host: ncov.prpr.pp.ua}, headers: {Host: ncov.prpr.pp.ua}}
+  - {name: SSRTOOL.COM, server: 159.65.132.228, port: 8080, type: vmess, uuid: 13f3ca4e-7542-310f-be51-6f69015be4ae, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: cn.bing.com}, headers: {Host: cn.bing.com}}
+  - {name: SSRTOOL.COM$, server: b.b289wt5vxa.tk, port: 443, type: vmess, uuid: 080a61f7-f2be-4364-8cf9-ada2182fb151, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1fffc9de/, ws-headers: {Host: b.b289wt5vxa.tk}, headers: {Host: b.b289wt5vxa.tk}}
+  - {name: SSRTOOL.COM$$, server: xj.cfcn.xyz, port: 443, type: vmess, uuid: bd3c9141-0f1a-3349-8183-f56e959fa05b, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s193.xiaojiao.org.cn}, headers: {Host: s193.xiaojiao.org.cn}}
+  - {name: SSRTOOL.COM$$$, server: 45.79.227.129, port: 37768, type: vmess, uuid: db0b613e-7057-4c30-a21a-71f8b6b2e506, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.227.129}, headers: {Host: 45.79.227.129}}
+  - {name: 翻墙党fanqiangdang.com, server: s230.wewall.top, port: 443, type: vmess, uuid: 9b62216e-7279-3520-95cd-03ee549ffb66, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s230.wewall.top}, headers: {Host: s230.wewall.top}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
@@ -47,7 +48,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
       - DIRECT
   - name: ♻️ 自动选择
     type: fallback
@@ -59,7 +61,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
   - name: 📲 电报吹水
     type: select
     proxies:
@@ -70,7 +73,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
       - DIRECT
   - name: 📹 YouTube
     type: select
@@ -82,7 +86,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
       - DIRECT
   - name: 🎥 NETFLIX
     type: select
@@ -92,7 +97,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
@@ -102,7 +108,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -114,7 +121,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
@@ -127,7 +135,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -139,7 +148,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -156,7 +166,8 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇭🇰 香港HKT
+      - SSRTOOL.COM$$$
+      - 翻墙党fanqiangdang.com
 Rule:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
