@@ -13,36 +13,24 @@ skip-proxy=127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, 
 DIRECT = direct
 🇺🇲 美国3 CN2-GT = vmess, racknerd.v2-1900.site, 443, username=ec7f9985-daf0-41ce-8b6c-de1c936abb0f, tls=true, ws=true, ws-path=/, ws-headers=Host:racknerd.v2-1900.site
 🇸🇬 新加坡sg.cdn.cnccsnet.cn = vmess, sg.cdn.cnccsnet.cn, 443, username=8a679da5-9b3d-4b92-bfd4-bcf082c69fbd, tls=true, ws=true, ws-path=/fb04a2fc/, ws-headers=Host:sg.cdn.cnccsnet.cn
-5 = vmess, 36.231.232.195, 45738, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-6 = vmess, 36.232.41.34, 41819, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-7 = vmess, 114.38.85.225, 33500, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-15 = vmess, 185.171.121.163, 38588, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-16 = vmess, 122.190.3.38, 443, username=d8b524ea-72cc-33d9-a59a-c0414d90d782, tls=true, ws=true, ws-path=/panel, ws-headers=Host:s242.xiaojiao.org.cn
-10 = vmess, hz.cfcn.xyz, 443, username=d8b524ea-72cc-33d9-a59a-c0414d90d782, tls=true, ws=true, ws-path=/panel, ws-headers=Host:s190.haierzykt.top
-9 = vmess, xj.cfcn.xyz, 443, username=d8b524ea-72cc-33d9-a59a-c0414d90d782, tls=true, ws=true, ws-path=/panel, ws-headers=Host:s63.xiaojiao.org.cn
-21 = vmess, 45.146.121.15, 22650, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-8 = vmess, 91.220.202.108, 31656, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-20 = vmess, 103.196.22.103, 40967, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-14 = vmess, 103.196.22.173, 42401, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-19 = vmess, 80.251.213.81, 16036, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-12 = vmess, 144.202.77.121, 21000, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-11 = vmess, 38.143.8.50, 31442, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-13 = vmess, 185.172.113.162, 30908, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-18 = vmess, 185.172.113.163, 25120, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
-17 = vmess, 45.93.217.83, 48685, username=f203b9af-1102-067c-48a6-2bbb29d3817d, tls=false
+SSRTOOL.COM = vmess, 159.65.132.228, 8080, username=13f3ca4e-7542-310f-be51-6f69015be4ae, tls=false, ws=true, ws-path=/v2ray, ws-headers=Host:cn.bing.com
+SSRTOOL.COM$ = vmess, b.b289wt5vxa.tk, 443, username=080a61f7-f2be-4364-8cf9-ada2182fb151, tls=true, ws=true, ws-path=/1fffc9de/, ws-headers=Host:b.b289wt5vxa.tk
+SSRTOOL.COM$$ = vmess, xj.cfcn.xyz, 443, username=bd3c9141-0f1a-3349-8183-f56e959fa05b, tls=true, ws=true, ws-path=/panel, ws-headers=Host:s193.xiaojiao.org.cn
+SSRTOOL.COM$$$ = vmess, 45.79.227.129, 37768, username=db0b613e-7057-4c30-a21a-71f8b6b2e506, tls=false, ws=true, ws-path=/, ws-headers=Host:45.79.227.129
+翻墙党fanqiangdang.com = vmess, s230.wewall.top, 443, username=9b62216e-7279-3520-95cd-03ee549ffb66, tls=true, ws=true, ws-path=/panel, ws-headers=Host:s230.wewall.top
 
 [Proxy Group]
-🔰 节点选择 = select,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,DIRECT
-♻️ 自动选择 = fallback,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,url=http://www.gstatic.com/generate_204,interval=500
-📲 电报吹水 = select,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,DIRECT
-📹 YouTube = select,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,DIRECT
-🎥 NETFLIX = select,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,DIRECT
-📺 巴哈姆特 = select,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,DIRECT
-🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17,DIRECT
-Ⓜ️ 微软服务 = select,DIRECT,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17
-🍎 苹果服务 = select,DIRECT,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17
+🔰 节点选择 = select,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,DIRECT
+♻️ 自动选择 = fallback,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,url=http://www.gstatic.com/generate_204,interval=500
+📲 电报吹水 = select,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,DIRECT
+📹 YouTube = select,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,DIRECT
+🎥 NETFLIX = select,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,DIRECT
+📺 巴哈姆特 = select,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,DIRECT
+🌍 国外媒体 = select,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com,DIRECT
+Ⓜ️ 微软服务 = select,DIRECT,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com
+🍎 苹果服务 = select,DIRECT,🔰 节点选择,♻️ 自动选择,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com
 🛑 全球拦截 = select,REJECT,DIRECT
-🐟 漏网之鱼 = select,🔰 节点选择,♻️ 自动选择,DIRECT,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,5,6,7,15,16,10,9,21,8,20,14,19,12,11,13,18,17
+🐟 漏网之鱼 = select,🔰 节点选择,♻️ 自动选择,DIRECT,🇺🇲 美国3 CN2-GT,🇸🇬 新加坡sg.cdn.cnccsnet.cn,SSRTOOL.COM,SSRTOOL.COM$,SSRTOOL.COM$$,SSRTOOL.COM$$$,翻墙党fanqiangdang.com
 
 [Rule]
 DOMAIN-SUFFIX,local,DIRECT
