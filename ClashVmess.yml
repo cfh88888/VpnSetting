@@ -35,10 +35,12 @@ Proxy:
   - {name: SSRTOOL.COM, server: b.b289wt5vxa.tk, port: 443, type: vmess, uuid: 080a61f7-f2be-4364-8cf9-ada2182fb151, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1fffc9de/, ws-headers: {Host: b.b289wt5vxa.tk}, headers: {Host: b.b289wt5vxa.tk}}
   - {name: SSRTOOL.COM$, server: 45.79.227.129, port: 37768, type: vmess, uuid: db0b613e-7057-4c30-a21a-71f8b6b2e506, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.227.129}, headers: {Host: 45.79.227.129}}
   - {name: SSRTOOL.COM$$, server: 204.13.155.21, port: 61606, type: vmess, uuid: 49f69024-7574-4248-85f9-83bb3f1c4d8f, alterId: 233, cipher: auto, tls: false}
-  - {name: 🇯🇵 翻墙党313.39日本, server: 172.104.116.232, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: 翻墙党203.84欧洲, server: 45.144.2.186, port: 5933, type: ss, cipher: rc4, password: lncn.org w3g}
-  - {name: 🇺🇲 翻墙党285.63美国, server: 45.79.224.191, port: 8097, type: ss, cipher: aes-256-cfb, password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D}
-  - {name: 🇷🇺 翻墙党243.59俄罗斯, server: 85.117.234.98, port: 5933, type: ss, cipher: rc4, password: lncn.org w3g}
+  - {name: 翻墙党fanqiangdang.com, server: cf.cfcn.xyz, port: 443, type: vmess, uuid: 2805c7a2-44a9-3af4-aa07-dd7ce2b6c0d6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s30.wewall.top}, headers: {Host: s30.wewall.top}}
+  - {name: 翻墙党fanqiangdang.com$, server: s230.wewall.top, port: 443, type: vmess, uuid: 2805c7a2-44a9-3af4-aa07-dd7ce2b6c0d6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s230.wewall.top}, headers: {Host: s230.wewall.top}}
+  - {name: 翻墙党fanqiangdang.com$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 2805c7a2-44a9-3af4-aa07-dd7ce2b6c0d6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s229.tianyue888.com.cn}, headers: {Host: s229.tianyue888.com.cn}}
+  - {name: 翻墙党fanqiangdang.com$$$, server: s155.wewall.top, port: 443, type: vmess, uuid: 2805c7a2-44a9-3af4-aa07-dd7ce2b6c0d6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
+  - {name: 翻墙党fanqiangdang.com$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 2805c7a2-44a9-3af4-aa07-dd7ce2b6c0d6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s318.tianyue888.com.cn}, headers: {Host: s318.tianyue888.com.cn}}
+  - {name: 翻墙党fanqiangdang.com$$$$$, server: s74.wewall.top, port: 443, type: vmess, uuid: 2805c7a2-44a9-3af4-aa07-dd7ce2b6c0d6, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.wewall.top}, headers: {Host: s74.wewall.top}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
@@ -48,10 +50,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
       - DIRECT
   - name: ♻️ 自动选择
     type: fallback
@@ -62,10 +66,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
   - name: 📲 电报吹水
     type: select
     proxies:
@@ -75,10 +81,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
       - DIRECT
   - name: 📹 YouTube
     type: select
@@ -89,10 +97,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
       - DIRECT
   - name: 🎥 NETFLIX
     type: select
@@ -101,10 +111,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
@@ -113,10 +125,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
       - DIRECT
   - name: 🌍 国外媒体
     type: select
@@ -127,10 +141,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
@@ -142,10 +158,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -156,10 +174,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -175,10 +195,12 @@ Proxy Group:
       - SSRTOOL.COM
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
-      - 🇯🇵 翻墙党313.39日本
-      - 翻墙党203.84欧洲
-      - 🇺🇲 翻墙党285.63美国
-      - 🇷🇺 翻墙党243.59俄罗斯
+      - 翻墙党fanqiangdang.com
+      - 翻墙党fanqiangdang.com$
+      - 翻墙党fanqiangdang.com$$
+      - 翻墙党fanqiangdang.com$$$
+      - 翻墙党fanqiangdang.com$$$$
+      - 翻墙党fanqiangdang.com$$$$$
 Rule:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
