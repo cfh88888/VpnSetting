@@ -31,90 +31,106 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - {name: 🇺🇲 美国3 CN2-GT, server: racknerd.v2-1900.site, port: 443, type: vmess, uuid: ec7f9985-daf0-41ce-8b6c-de1c936abb0f, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: racknerd.v2-1900.site}, headers: {Host: racknerd.v2-1900.site}}
   - {name: SSRTOOL.COM, server: b.b289wt5vxa.tk, port: 443, type: vmess, uuid: 080a61f7-f2be-4364-8cf9-ada2182fb151, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1fffc9de/, ws-headers: {Host: b.b289wt5vxa.tk}, headers: {Host: b.b289wt5vxa.tk}}
-  - {name: 🇺🇲 美国加利福尼亚费利蒙, server: 45.79.227.129, port: 37768, type: vmess, uuid: db0b613e-7057-4c30-a21a-71f8b6b2e506, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 45.79.227.129}, headers: {Host: 45.79.227.129}}
   - {name: 🇺🇲 美国加利福尼亚洛杉矶, server: 204.13.155.21, port: 61606, type: vmess, uuid: 49f69024-7574-4248-85f9-83bb3f1c4d8f, alterId: 233, cipher: auto, tls: false}
-  - {name: SSRTOOL.COM$, server: s155.wewall.top, port: 443, type: vmess, uuid: 4344a6d5-c1ba-3f85-b789-2079cc6f6783, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
-  - {name: SSRTOOL.COM$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 4344a6d5-c1ba-3f85-b789-2079cc6f6783, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s347.tianyue888.com.cn}, headers: {Host: s347.tianyue888.com.cn}}
+  - {name: SSRTOOL.COM$, server: s155.wewall.top, port: 443, type: vmess, uuid: 2734ea7a-c37d-394b-a1f0-9f0aef622575, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
+  - {name: SSRTOOL.COM$$, server: 139.180.200.29, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.180.200.29}, headers: {Host: 139.180.200.29}}
+  - {name: SSRTOOL.COM$$$, server: 167.179.73.73, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 167.179.73.73}, headers: {Host: 167.179.73.73}}
+  - {name: SSRTOOL.COM$$$$, server: 167.179.75.99, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 167.179.75.99}, headers: {Host: 167.179.75.99}}
+  - {name: SSRTOOL.COM$$$$$, server: 198.13.42.213, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 198.13.42.213}, headers: {Host: 198.13.42.213}}
+  - {name: SSRTOOL.COM$$$$$$, server: cdn.yaohuo.fun, port: 80, type: vmess, uuid: 158dfdaa-61b7-11ea-8437-00163c47b072, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /Fbotm7xv/, ws-headers: {Host: cdn.yaohuo.fun}, headers: {Host: cdn.yaohuo.fun}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
       - DIRECT
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
   - name: 📲 电报吹水
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
       - DIRECT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
       - DIRECT
   - name: 🎥 NETFLIX
     type: select
     proxies:
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
       - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
@@ -122,24 +138,28 @@ Proxy Group:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -151,12 +171,14 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇲 美国3 CN2-GT
       - SSRTOOL.COM
-      - 🇺🇲 美国加利福尼亚费利蒙
       - 🇺🇲 美国加利福尼亚洛杉矶
       - SSRTOOL.COM$
       - SSRTOOL.COM$$
+      - SSRTOOL.COM$$$
+      - SSRTOOL.COM$$$$
+      - SSRTOOL.COM$$$$$
+      - SSRTOOL.COM$$$$$$
 Rule:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
