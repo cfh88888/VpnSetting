@@ -31,330 +31,234 @@ cfw-bypass:
   - <local>
 cfw-latency-timeout: 5000
 Proxy:
-  - {name: SSRTOOL.COM, server: b.b289wt5vxa.tk, port: 443, type: vmess, uuid: 080a61f7-f2be-4364-8cf9-ada2182fb151, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1fffc9de/, ws-headers: {Host: b.b289wt5vxa.tk}, headers: {Host: b.b289wt5vxa.tk}}
-  - {name: SSRTOOL.COM$, server: 139.180.200.29, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.180.200.29}, headers: {Host: 139.180.200.29}}
-  - {name: SSRTOOL.COM$$, server: 167.179.73.73, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 167.179.73.73}, headers: {Host: 167.179.73.73}}
-  - {name: SSRTOOL.COM$$$, server: 198.13.42.213, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 198.13.42.213}, headers: {Host: 198.13.42.213}}
-  - {name: SSRTOOL.COM$$$$, server: cdn.yaohuo.fun, port: 80, type: vmess, uuid: 158dfdaa-61b7-11ea-8437-00163c47b072, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /Fbotm7xv/, ws-headers: {Host: cdn.yaohuo.fun}, headers: {Host: cdn.yaohuo.fun}}
-  - {name: SSRTOOL.COM$$$$$, server: 155.138.139.206, port: 42262, type: vmess, uuid: 4f41ccbe-5800-440f-8f51-0179127e69df, alterId: 233, cipher: auto, tls: false}
-  - {name: SSRTOOL.COM$$$$$$, server: cdn.yaohuo.fun, port: 80, type: vmess, uuid: 158dfdaa-61b7-11ea-8437-00163c47b072, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /Fbotm7xv/, ws-headers: {Host: cdn.yaohuo.fun}, headers: {Host: cdn.yaohuo.fun}}
-  - {name: SSRTOOL.COM$$$$$$$, server: 185.10.17.206, port: 31946, type: vmess, uuid: 620e08d3-89c0-4a0d-bbc4-3fba7ecba154, alterId: 233, cipher: auto, tls: false}
-  - {name: 翻墙党fanqiangdang.com, server: www.kernels.bid, port: 443, type: vmess, uuid: 120c5c14-1af6-6ad0-4477-1d5a00dc2a30, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}, headers: {Host: www.kernels.bid}}
-  - {name: 翻墙党fanqiangdang.com$, server: www.kernels.bid, port: 80, type: vmess, uuid: 6700f093-222f-3816-cc25-3b8bd5578132, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}, headers: {Host: www.kernels.bid}}
-  - {name: 翻墙党fanqiangdang.com$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s156.haierzykt.top}, headers: {Host: s156.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s154.haierzykt.top}, headers: {Host: s154.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas240.tianyue888.com.cn}, headers: {Host: gagas240.tianyue888.com.cn}}
-  - {name: 翻墙党fanqiangdang.com$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs227.haierzykt.top}, headers: {Host: pigs227.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs232.haierzykt.top}, headers: {Host: pigs232.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas223.tianyue888.com.cn}, headers: {Host: gagas223.tianyue888.com.cn}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$, server: s155.wewall.top, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: supers18.tianyue888.com.cn}, headers: {Host: supers18.tianyue888.com.cn}}
-  - {name: 翻墙党, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s246.haierzykt.top}, headers: {Host: s246.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$, server: s74.wewall.top, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.wewall.top}, headers: {Host: s74.wewall.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s169.haierzykt.top}, headers: {Host: s169.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s154.haierzykt.top}, headers: {Host: s154.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas240.tianyue888.com.cn}, headers: {Host: gagas240.tianyue888.com.cn}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs227.haierzykt.top}, headers: {Host: pigs227.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs232.haierzykt.top}, headers: {Host: pigs232.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas223.tianyue888.com.cn}, headers: {Host: gagas223.tianyue888.com.cn}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$, server: s155.wewall.top, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: supers18.tianyue888.com.cn}, headers: {Host: supers18.tianyue888.com.cn}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s246.haierzykt.top}, headers: {Host: s246.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$, server: s74.wewall.top, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.wewall.top}, headers: {Host: s74.wewall.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 2340fe08-f66e-3c87-a9a8-33ff797d36db, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s169.haierzykt.top}, headers: {Host: s169.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas240.tianyue888.com.cn}, headers: {Host: gagas240.tianyue888.com.cn}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s156.haierzykt.top}, headers: {Host: s156.haierzykt.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$, server: s155.wewall.top, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$, server: s74.wewall.top, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.wewall.top}, headers: {Host: s74.wewall.top}}
-  - {name: 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs232.haierzykt.top}, headers: {Host: pigs232.haierzykt.top}}
+  - {name: 🇺🇲 美国 纽约州布法罗colocrossing数据中心, server: b.b289wt5vxa.tk, port: 443, type: vmess, uuid: 080a61f7-f2be-4364-8cf9-ada2182fb151, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /1fffc9de/, ws-headers: {Host: b.b289wt5vxa.tk}, headers: {Host: b.b289wt5vxa.tk}}
+  - {name: 🇯🇵 日本东京, server: 139.180.200.29, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 139.180.200.29}, headers: {Host: 139.180.200.29}}
+  - {name: 🇯🇵 日本东京$, server: 167.179.73.73, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 167.179.73.73}, headers: {Host: 167.179.73.73}}
+  - {name: 🇯🇵 日本东京$$, server: 198.13.42.213, port: 80, type: vmess, uuid: 5639c107-6a7c-40e3-8b48-8c3368dd2ccb, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 198.13.42.213}, headers: {Host: 198.13.42.213}}
+  - {name: 🇺🇲 美国 cloudflare公司cdn节点, server: cdn.yaohuo.fun, port: 80, type: vmess, uuid: 158dfdaa-61b7-11ea-8437-00163c47b072, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /Fbotm7xv/, ws-headers: {Host: cdn.yaohuo.fun}, headers: {Host: cdn.yaohuo.fun}}
+  - {name: 🇨🇦 加拿大多伦多, server: 155.138.139.206, port: 42262, type: vmess, uuid: 4f41ccbe-5800-440f-8f51-0179127e69df, alterId: 233, cipher: auto, tls: false}
+  - {name: SSRTOOL.COM, server: cdn.yaohuo.fun, port: 80, type: vmess, uuid: 158dfdaa-61b7-11ea-8437-00163c47b072, alterId: 16, cipher: auto, tls: false, network: ws, ws-path: /Fbotm7xv/, ws-headers: {Host: cdn.yaohuo.fun}, headers: {Host: cdn.yaohuo.fun}}
+  - {name: 🇺🇲 美国 cloudflare公司cdn节点$, server: www.kernels.bid, port: 443, type: vmess, uuid: 120c5c14-1af6-6ad0-4477-1d5a00dc2a30, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}, headers: {Host: www.kernels.bid}}
+  - {name: 翻墙党fanqiangdang.com, server: www.kernels.bid, port: 80, type: vmess, uuid: 6700f093-222f-3816-cc25-3b8bd5578132, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ws, ws-headers: {Host: www.kernels.bid}, headers: {Host: www.kernels.bid}}
+  - {name: 翻墙党, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s156.haierzykt.top}, headers: {Host: s156.haierzykt.top}}
+  - {name: 翻墙党$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s154.haierzykt.top}, headers: {Host: s154.haierzykt.top}}
+  - {name: 翻墙党fanqiangdang.com$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas240.tianyue888.com.cn}, headers: {Host: gagas240.tianyue888.com.cn}}
+  - {name: 翻墙党$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs227.haierzykt.top}, headers: {Host: pigs227.haierzykt.top}}
+  - {name: 翻墙党fanqiangdang.com$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs232.haierzykt.top}, headers: {Host: pigs232.haierzykt.top}}
+  - {name: 翻墙党fanqiangdang.com$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas223.tianyue888.com.cn}, headers: {Host: gagas223.tianyue888.com.cn}}
+  - {name: 🇭🇰 香港 阿里云, server: s155.wewall.top, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
+  - {name: 湖南省株洲市 百度云加速节点, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: supers18.tianyue888.com.cn}, headers: {Host: supers18.tianyue888.com.cn}}
+  - {name: 翻墙党fanqiangdang.com$$$$, server: s74.wewall.top, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.wewall.top}, headers: {Host: s74.wewall.top}}
+  - {name: 翻墙党fanqiangdang.com$$$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: 553d276a-dac6-3ab0-86ad-fd94127106be, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s169.haierzykt.top}, headers: {Host: s169.haierzykt.top}}
+  - {name: 翻墙党fanqiangdang.com$$$$$$, server: ty.cfcn.xyz, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: gagas240.tianyue888.com.cn}, headers: {Host: gagas240.tianyue888.com.cn}}
+  - {name: 翻墙党$$$, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s156.haierzykt.top}, headers: {Host: s156.haierzykt.top}}
+  - {name: 翻墙党$$$$, server: s155.wewall.top, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s155.wewall.top}, headers: {Host: s155.wewall.top}}
+  - {name: hk, server: s74.wewall.top, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: s74.wewall.top}, headers: {Host: s74.wewall.top}}
+  - {name: 湖北省武汉市 百度云加速节点, server: hz.cfcn.xyz, port: 443, type: vmess, uuid: c0a0dfe5-b492-3a7c-b717-69d267d05dfb, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /panel, ws-headers: {Host: pigs232.haierzykt.top}, headers: {Host: pigs232.haierzykt.top}}
 Proxy Group:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
       - DIRECT
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 500
     proxies:
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
   - name: 📲 电报吹水
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
       - DIRECT
   - name: 📹 YouTube
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
       - DIRECT
   - name: 🎥 NETFLIX
     type: select
     proxies:
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
       - DIRECT
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
       - DIRECT
   - name: Ⓜ️ 微软服务
     type: select
@@ -362,84 +266,60 @@ Proxy Group:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
   - name: 🍎 苹果服务
     type: select
     proxies:
       - DIRECT
       - 🔰 节点选择
       - ♻️ 自动选择
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
   - name: 🛑 全球拦截
     type: select
     proxies:
@@ -451,42 +331,30 @@ Proxy Group:
       - 🔰 节点选择
       - ♻️ 自动选择
       - DIRECT
+      - 🇺🇲 美国 纽约州布法罗colocrossing数据中心
+      - 🇯🇵 日本东京
+      - 🇯🇵 日本东京$
+      - 🇯🇵 日本东京$$
+      - 🇺🇲 美国 cloudflare公司cdn节点
+      - 🇨🇦 加拿大多伦多
       - SSRTOOL.COM
-      - SSRTOOL.COM$
-      - SSRTOOL.COM$$
-      - SSRTOOL.COM$$$
-      - SSRTOOL.COM$$$$
-      - SSRTOOL.COM$$$$$
-      - SSRTOOL.COM$$$$$$
-      - SSRTOOL.COM$$$$$$$
+      - 🇺🇲 美国 cloudflare公司cdn节点$
       - 翻墙党fanqiangdang.com
+      - 翻墙党
+      - 翻墙党$
       - 翻墙党fanqiangdang.com$
+      - 翻墙党$$
       - 翻墙党fanqiangdang.com$$
       - 翻墙党fanqiangdang.com$$$
+      - 🇭🇰 香港 阿里云
+      - 湖南省株洲市 百度云加速节点
       - 翻墙党fanqiangdang.com$$$$
       - 翻墙党fanqiangdang.com$$$$$
       - 翻墙党fanqiangdang.com$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$
-      - 翻墙党
-      - 翻墙党fanqiangdang.com$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$
-      - 翻墙党fanqiangdang.com$$$$$$$$$$$$$$$$$$$$$$$$$$
+      - 翻墙党$$$
+      - 翻墙党$$$$
+      - hk
+      - 湖北省武汉市 百度云加速节点
 Rule:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
